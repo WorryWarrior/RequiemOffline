@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b4c2b86d06afa4cbe3ea071e6a6e20, type: 3}
+  m_Name: FireArrow
+  m_EditorClassIdentifier: 
+  activeSprite: {fileID: 21300000, guid: 2ec22c84f8d519c47b214fe7621b5b03, type: 3}
+  inactiveSprite: {fileID: 21300000, guid: 64df68698c026ce4599925e937464fa2, type: 3}
+  type: 0
+  data:
+    Name: Fire Arrow
+    Id: 2
+  skillName: Fire Arrow
+  level: 0
+  description: Launches a fire arrow at your target. Arrow deals twice its level damage.
+  precedingSkill: {fileID: 11400000, guid: 3b78455677a1a4e419c3aac213fcc684, type: 2}
+  manacost: 7
+  castTime: 1.75
+  cooldown: 10
+  requiresTarget: 1
+  prefab: {fileID: 1025324033562714560, guid: 527fdbf0f85935b4f9b3417885bb5d3e, type: 3}
+  success: {fileID: 8300000, guid: 4aa6ed748ffdbc940ac9f6ae8d222ca8, type: 3}
+  cast: {fileID: 8300000, guid: 9b2d4984657d6d645b2906ac4ae72bac, type: 3}

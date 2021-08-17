@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc20ff324f46fb4d8f822ae333ddec0, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: 
+  uiSprite: {fileID: 21300000, guid: 7a31b1314a2f9c94ba69489b456cd1a5, type: 3}
+  type: 4
+  description: Protect your feet.
+  data:
+    Name: 
+    Id: 3
+    buffs:
+    - attribute: 0
+      value: 0
+      max: 5
+      min: 1
+    - attribute: 2
+      value: 0
+      max: 10
+      min: 1
+  isStackable: 0

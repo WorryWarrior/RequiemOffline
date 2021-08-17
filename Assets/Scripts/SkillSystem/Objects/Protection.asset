@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb8acbbc8bd3144bb45da6dddb7c6e4, type: 3}
+  m_Name: Protection
+  m_EditorClassIdentifier: 
+  activeSprite: {fileID: 21300000, guid: 5e73129c804482746a1e26c2f0f26f2f, type: 3}
+  inactiveSprite: {fileID: 21300000, guid: 7f9de295afd6af7459193d64b531e91f, type: 3}
+  type: 1
+  data:
+    Name: Protection
+    Id: 4
+  skillName: Protection
+  level: 0
+  description: Slows down all foes around you. Effect scales with the level of this
+    ability.
+  precedingSkill: {fileID: 0}
+  manacost: 3
+  castTime: 0
+  cooldown: 3
+  requiresTarget: 0
+  particles: {fileID: 8407517289309736961, guid: d9717016878f058448e79361abe0f7ff,
+    type: 3}
+  duration: 3
+  buffPrefab: {fileID: 7601631304648314700, guid: a500dbf13d51b2b4f88a71db35a14990,
+    type: 3}
+  sound: {fileID: 8300000, guid: 9f822a73e663ef74a95eb419381c9853, type: 3}

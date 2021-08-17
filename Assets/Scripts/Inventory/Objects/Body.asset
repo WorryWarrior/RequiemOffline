@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56f59a698a03064c9a563fff0ee1e97, type: 3}
+  m_Name: Body
+  m_EditorClassIdentifier: 
+  uiSprite: {fileID: 21300000, guid: 07184d753b687314f93c8e30ece9246c, type: 3}
+  type: 1
+  description: A cuirass to protect you.
+  data:
+    Name: 
+    Id: 0
+    buffs:
+    - attribute: 0
+      value: 0
+      max: 10
+      min: 1
+  isStackable: 0

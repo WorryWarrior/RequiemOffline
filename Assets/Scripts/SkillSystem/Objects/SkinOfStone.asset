@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb8acbbc8bd3144bb45da6dddb7c6e4, type: 3}
+  m_Name: SkinOfStone
+  m_EditorClassIdentifier: 
+  activeSprite: {fileID: 21300000, guid: 26830748fe6ef074fb7692dfed0aac70, type: 3}
+  inactiveSprite: {fileID: 21300000, guid: db18b37c1629044418a7eaec65b47351, type: 3}
+  type: 1
+  data:
+    Name: Mental Rejuvenation
+    Id: 1
+  skillName: Mental Rejuvenation
+  level: 0
+  description: Restores 3 points of MP per ability level.
+  precedingSkill: {fileID: 11400000, guid: ae535336b8c2c334381b7f4dccd8f829, type: 2}
+  manacost: 0
+  castTime: 0
+  cooldown: 15
+  requiresTarget: 0
+  particles: {fileID: 1123685189253994290, guid: e795441002fb4854cbff56044eb5e2de,
+    type: 3}
+  duration: 6
+  buffPrefab: {fileID: 7191987361465944462, guid: 194b6187d1a079d4bb10be4f73dab82a,
+    type: 3}
+  sound: {fileID: 8300000, guid: 0218889824d0d0b42a2c19683052deeb, type: 3}
